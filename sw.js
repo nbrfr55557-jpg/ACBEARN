@@ -1,11 +1,12 @@
 /* Service worker — Centrage DR400
    Incrémenter CACHE à chaque mise à jour de l'app pour déclencher
    le rafraîchissement (détection gérée côté index.html). */
-const CACHE = "centrage-dr400-v3";
+const CACHE = "centrage-dr400-v5";
 const ASSETS = [
   "./",
   "./index.html",
   "./manifest.json",
+  "./apple-touch-icon.png",
   "./icon-192.png",
   "./icon-512.png",
   "./icon-maskable-512.png"
