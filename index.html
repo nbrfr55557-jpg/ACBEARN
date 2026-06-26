@@ -574,6 +574,8 @@ if("serviceWorker" in navigator){
     b.classList.add("show");
     document.getElementById("updateReload").onclick=()=>{
       if(worker) worker.postMessage({type:"SKIP_WAITING"});
+      // filet de sécurité iOS : si controllerchange ne se déclenche pas, on recharge quand même
+      setTimeout(()=>{ if(!refreshing){ refreshing=true; window.location.reload(); } }, 2000);
     };
   }
 

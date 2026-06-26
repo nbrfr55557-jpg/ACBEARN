@@ -4,7 +4,7 @@
    qui passe en "waiting" ; la page affiche alors la bannière de mise à jour.
    Le SW n'active la nouvelle version qu'au clic sur "Recharger"
    (message SKIP_WAITING), pour un comportement maîtrisé. */
-const CACHE = "centrage-dr400-v10";
+const CACHE = "centrage-dr400-v11";
 const ASSETS = [
   "./",
   "./index.html",
