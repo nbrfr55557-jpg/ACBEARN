@@ -1,7 +1,7 @@
 /* Service worker — Centrage DR400
    Incrémenter CACHE à chaque mise à jour de l'app pour déclencher
    le rafraîchissement (détection gérée côté index.html). */
-const CACHE = "centrage-dr400-v7";
+const CACHE = "centrage-dr400-v9";
 const ASSETS = [
   "./",
   "./index.html",
